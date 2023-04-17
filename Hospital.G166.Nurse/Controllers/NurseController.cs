@@ -28,7 +28,7 @@ namespace Hospital.G166.Nurse.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_nurseService.GetNurse());
+            return Ok(_nurseService.GetNurses());
         }
 
         /// <summary>

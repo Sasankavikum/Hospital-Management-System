@@ -1,6 +1,11 @@
 ﻿namespace Hospital.G166.Patient.Services
 {
-    public class IPatientService
+    public interface IPatientService
     {
+        List<Model.Patient> GetPatients();
+        Model.Patient? GetPatient(int id);
+        Model.Patient? AddPatient(Model.Patient patient);
+        Model.Patient? UpdatePatient(Model.Patient patient);
+        bool? DeletePatient(int id);
     }
 }
