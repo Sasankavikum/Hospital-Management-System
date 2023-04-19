@@ -7,12 +7,74 @@
         {
             "UpstreamPathTemplate": "/doctor",
             "UpstreamHttpMethod": [ "Get" ],
-            "DownstreamPathTemplate": "/doctor",
+            "DownstreamPathTemplate": "/api/doctor",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
                     "Host": "localhost",
-                    "Port": 5176
+                    "Port": 5186
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/doctor/{id}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamPathTemplate": "/api/doctor/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5186
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/nurse",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamPathTemplate": "/api/nurse",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5112
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/nurse/{id}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamPathTemplate": "/api/nurse/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5112
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/patient",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamPathTemplate": "/api/patient",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5271
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/patient/{id}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamPathTemplate": "/api/patient/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5271
                 }
             ]
         }

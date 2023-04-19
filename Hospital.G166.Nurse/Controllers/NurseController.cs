@@ -8,7 +8,7 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace Hospital.G166.Nurse.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/nurse")]
     [ApiController]
     public class NurseController : ControllerBase
     {

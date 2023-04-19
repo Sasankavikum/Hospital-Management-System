@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Server.IIS.Core;
 
 namespace Hospital.G166.Patient.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/patient")]
     [ApiController]
     public class PatientController : ControllerBase
     {
