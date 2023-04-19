@@ -1,5 +1,5 @@
 ﻿using Hospital.G166.Doctor.Services;
-using Hospital.G166.Doctor.Controllers;
+using Hospital.G166.Doctor.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
 

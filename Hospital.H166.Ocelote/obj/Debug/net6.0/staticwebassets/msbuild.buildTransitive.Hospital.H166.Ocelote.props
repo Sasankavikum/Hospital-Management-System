@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Hospital.H166.Ocelote.props" />
+</Project>

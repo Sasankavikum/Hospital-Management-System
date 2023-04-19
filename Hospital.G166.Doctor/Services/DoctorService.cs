@@ -1,7 +1,6 @@
 ﻿using Hospital.G166.Doctor.Data;
 using Hospital.G166.Doctor.Model;
 
-
 namespace Hospital.G166.Doctor.Services
 {
     public class DoctorService:IDoctorService

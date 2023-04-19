@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.G166.Patient", "Ho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.G166.Doctor", "Hospital.G166.Doctor\Hospital.G166.Doctor.csproj", "{A7A0B90B-78DC-4F63-8351-0A4106C59E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.G166.Nurse", "Hospital.G166.Nurse\Hospital.G166.Nurse.csproj", "{A9E7A2EE-4B06-4349-AA2B-48E3F3E4C9B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.G166.Nurse", "Hospital.G166.Nurse\Hospital.G166.Nurse.csproj", "{A9E7A2EE-4B06-4349-AA2B-48E3F3E4C9B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.H166.Ocelote", "Hospital.H166.Ocelote\Hospital.H166.Ocelote.csproj", "{C136E8BF-0D65-4228-9C05-C63041E333FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A9E7A2EE-4B06-4349-AA2B-48E3F3E4C9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E7A2EE-4B06-4349-AA2B-48E3F3E4C9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E7A2EE-4B06-4349-AA2B-48E3F3E4C9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C136E8BF-0D65-4228-9C05-C63041E333FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C136E8BF-0D65-4228-9C05-C63041E333FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C136E8BF-0D65-4228-9C05-C63041E333FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C136E8BF-0D65-4228-9C05-C63041E333FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{15C29F0B-B539-48EC-A907-16C0B4CABCE3} = {FA464902-39F4-4956-87AE-B563F82747FC}
 		{A7A0B90B-78DC-4F63-8351-0A4106C59E0E} = {FA464902-39F4-4956-87AE-B563F82747FC}
 		{A9E7A2EE-4B06-4349-AA2B-48E3F3E4C9B0} = {FA464902-39F4-4956-87AE-B563F82747FC}
+		{C136E8BF-0D65-4228-9C05-C63041E333FB} = {FA464902-39F4-4956-87AE-B563F82747FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E4C94F4-4EE4-4477-9357-07182A1D9BB7}

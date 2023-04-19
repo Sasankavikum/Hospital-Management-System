@@ -2,7 +2,7 @@
 {
     public static class PatientMockDataService
     {
-        public static List<Model.Patient> patients = new List<Model.Patient>()
+        public static List<Model.Patient> patient = new List<Model.Patient>()
         {
             new Model.Patient {Id = 1, Name = "Sasanka", Age = 25, Disease = "Cyclosporiasis", Sex = "Male"},
             new Model.Patient {Id = 2, Name = "Sachini", Age = 25, Disease = "Head ach", Sex = "Female"},

@@ -2,7 +2,7 @@
 {
     public interface IPatientService
     {
-        List<Model.Patient> GetPatients();
+        List<Model.Patient> GetPatient();
         Model.Patient? GetPatient(int id);
         Model.Patient? AddPatient(Model.Patient patient);
         Model.Patient? UpdatePatient(Model.Patient patient);

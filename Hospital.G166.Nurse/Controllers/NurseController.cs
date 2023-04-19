@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Hospital.G166.Nurse.Services;
-using Hospital.G166.Nurse.Controllers;
+using Hospital.G166.Nurse.Data;
 using Microsoft.AspNetCore.Server.IIS.Core;
 using System.Reflection.Metadata.Ecma335;
 
